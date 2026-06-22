@@ -575,16 +575,19 @@ class PilhaOcorrencias:
     def __init__(self):
         self.items = []
         self.proximo_id = 1
-
+        
+    # adiciona no topo 
     def push(self, ocorrencia):
         self.items.append(ocorrencia)
         self.proximo_id += 1
-
+        
+    # remove do topo
     def pop(self):
         if not self.is_empty():
             return self.items.pop()
         return None
 
+    # retorna o último elemento sem remover (topo da pilha)
     def peek(self):
         if not self.is_empty():
             return self.items[-1]
