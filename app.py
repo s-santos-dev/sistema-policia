@@ -14,7 +14,7 @@ st.set_page_config(
 st.markdown("""
 <style>
     .ocorrencia-card {
-        background-color: #f0f2f6;
+        background-color: #00008b;
         border-radius: 10px;
         padding: 15px;
         margin: 10px 0;
