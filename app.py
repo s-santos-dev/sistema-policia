@@ -21,7 +21,7 @@ st.markdown("""
         border-left: 5px solid #ff4b4b;
     }
     .ocorrencia-ativa {
-        background-color: #fff3cd;
+        background-color: #00008b;
         border-left: 5px solid #ffc107;
     }
     .status-pendente { color: #ff4b4b; font-weight: bold; }
